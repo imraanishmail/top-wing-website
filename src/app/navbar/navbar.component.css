@@ -11,7 +11,7 @@ mat-toolbar {
 /* .nav {
     padding-left: 350px;
 } */
-span {
+.nav {
     flex: 1 1 auto;
     text-align: center;
     margin: 0 auto;
