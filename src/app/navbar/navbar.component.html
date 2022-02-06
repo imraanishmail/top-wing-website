@@ -12,18 +12,83 @@
 </mat-toolbar> -->
 
 
+<!-- Material Toolbar-->
+<!-- <p>
+    <mat-toolbar>
+        <span><img src='./assets/logo_centered.png' class="responsive">{{about | uppercase}}</span>
+    </mat-toolbar>
+</p> -->
 
-<mat-toolbar>
+
+<!-- <mat-toolbar>
     <div class="nav">
-    <span><img src='./assets/logo_centered.png' class="responsive">{{about | uppercase}}</span>    
+        <span><img src='./assets/logo_centered.png' class="responsive"></span>
+        <span>About Us</span>
     </div>
-</mat-toolbar>
+</mat-toolbar> -->
+
 
 
  <!-- <mat-toolbar>
      <span><img src='./assets/logo_centered.png' class="responsive"></span>
         <span>About Us</span>   
  </mat-toolbar> -->
+
+
+<!-- Bootstrap Navbar with Logo-->
+<!-- Image and text -->
+<!-- <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.webp"
+          class="me-2"
+          height="20"
+          alt=""
+          loading="lazy"
+        />
+        <small>MDBootstrap</small>
+      </a>
+    </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src='./assets/logo_centered.png' class="responsive"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="basicNav.toggle()"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+        mdbCollapse
+        #basicNav="mdbCollapse"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   
 
 

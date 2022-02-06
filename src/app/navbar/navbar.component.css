@@ -4,15 +4,38 @@
     height: auto; 
     /* margin-top: 2px;   */
 }
-mat-toolbar {
+
+.navbar {
     height: 100px;
-    
 }
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        margin-top: -52px;
+    }
+}
+
+/* .example-spacer {
+    flex: 1 1 auto;
+} */
+
+/* mat-toolbar {
+    height: 100px;    
+} */
+
 /* .nav {
     padding-left: 350px;
 } */
-.nav {
+
+/* span {
     flex: 1 1 auto;
     text-align: center;
     margin: 0 auto;
-}
+} */
+
+/* .nav span {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+} */
