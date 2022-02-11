@@ -25,12 +25,14 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { SwiperModule } from 'swiper/angular';
+import { TestNavbarComponent } from './test-navbar/test-navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PageContentComponent
+    PageContentComponent,
+    TestNavbarComponent
   ],
   imports: [
     BrowserModule,

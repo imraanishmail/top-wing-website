@@ -1,0 +1,11 @@
+.responsive {
+  width: 175px;
+  max-width: 175px;
+  height: auto; 
+  /* margin-top: 2px;   */
+}
+
+.navbar-toggler {
+  color: white;
+  background-color: rgb(189, 0, 20);
+}
