@@ -13,6 +13,10 @@
     /* color: #e3f2fd; */
     color: rgb(90, 102, 114);
 }
+.social-icons li {
+    list-style: none;
+    /* display: inline; */
+}
 
 @media only screen and (max-width: 500px) {
     .responsive {

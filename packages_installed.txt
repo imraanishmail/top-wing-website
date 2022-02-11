@@ -1,3 +1,6 @@
 Swiper JS
 npm i swiper
 ___________________________________
+FontAwesome
+npm i @fortawesome/fontawesome-free
+____________________________________
