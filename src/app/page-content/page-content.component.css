@@ -39,6 +39,10 @@ body, html {
     text-align: center;
     color: #000;
   }
+  .border {
+    /* color: blue !important; */
+  }
+  
   
   .caption span.border {
     /* background-color: #111; */
@@ -49,6 +53,9 @@ body, html {
     font-size: 25px;
     letter-spacing: 10px;
   }
+  .border-dark {
+    border-width:3px !important;
+  }
   
   h3 {
     letter-spacing: 5px;
@@ -56,4 +63,4 @@ body, html {
     font: 20px "Lato", sans-serif;
     color: #111;
   }
-  
+
