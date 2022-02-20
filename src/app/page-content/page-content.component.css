@@ -7,7 +7,7 @@ body, html {
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,16 +45,17 @@ body, html {
   
   
   .caption span.border {
-    /* background-color: #111; */
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.603);
+    /* background-color: transparent; */
     /* color: #fff; */
-    color: #000;
+    color: white;
     padding: 18px;
     font-size: 25px;
+    /* font-weight: bold; */
     letter-spacing: 10px;
   }
   .border-dark {
-    border-width:3px !important;
+    border-width:3.5px !important;
   }
   
   h3 {

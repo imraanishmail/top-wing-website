@@ -26,13 +26,15 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { SwiperModule } from 'swiper/angular';
 import { TestNavbarComponent } from './test-navbar/test-navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     PageContentComponent,
-    TestNavbarComponent
+    TestNavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

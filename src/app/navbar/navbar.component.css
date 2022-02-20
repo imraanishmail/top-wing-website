@@ -8,6 +8,7 @@
 .navbar {
     height: 100px;
     /* position: relative; */
+    background-color: rgb(245,245,245);
 }
 .nav-item a, .nav-item .active{
     /* color: #e3f2fd; */
