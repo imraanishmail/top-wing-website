@@ -27,6 +27,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { SwiperModule } from 'swiper/angular';
 import { TestNavbarComponent } from './test-navbar/test-navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     PageContentComponent,
     TestNavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MenuPageComponent
   ],
   imports: [
     BrowserModule,
