@@ -4,7 +4,7 @@ import { PageContentComponent } from './page-content/page-content.component';
 import { MenuPageComponent } from './menu-page/menu-page.component';
 
 const routes: Routes = [{
-  path: 'page-content', component: PageContentComponent
+  path: '', component: PageContentComponent
 }, {
   path: 'menu-page', component: MenuPageComponent
 }];
