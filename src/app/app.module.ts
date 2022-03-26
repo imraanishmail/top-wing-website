@@ -28,6 +28,7 @@ import { SwiperModule } from 'swiper/angular';
 import { TestNavbarComponent } from './test-navbar/test-navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { TestNavbarBComponent } from './test-navbar-b/test-navbar-b.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AboutPageComponent } from './about-page/about-page.component';
     PageContentComponent,
     TestNavbarComponent,
     FooterComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    TestNavbarBComponent
   ],
   imports: [
     BrowserModule,

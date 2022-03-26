@@ -36,24 +36,24 @@
 
 
 
-
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Container wrapper -->
-  <div class="container">
+  <div class="container justify-content-center">
     <!-- Navbar brand -->
-    <a class="navbar-brand me-2" href="https://mdbgo.com/">
+    <a class="navbar-brand me-2" routerLink="/">
       <img
-        src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.webp"
+        src="./assets/logo_centered.png"
         height="16"
         alt=""
         loading="lazy"
         style="margin-top: -1px;"
+        class="responsive"
       />
     </a>
 
     <!-- Toggle button -->
-    <button
+    <!-- <button
       class="navbar-toggler"
       type="button"
       (click)="buttonsNav.toggle()"
@@ -61,38 +61,23 @@
       aria-label="Toggle navigation"
     >
       <i class="fas fa-bars"></i>
-    </button>
+    </button> -->
 
     <!-- Collapsible wrapper -->
-    <div
-      class="collapse navbar-collapse"
+    <!-- <div
+      class="collapse navbar-collapse justify-content-center" 
       id="navbarButtonsExample"
       mdbCollapse
       #buttonsNav="mdbCollapse"
-    >
+    > -->
       <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Dashboard</a>
+          <a class="nav-link" routerLink="/about-page">{{about | uppercase}}</a>
         </li>
       </ul>
       <!-- Left links -->
-
-      <div class="d-flex align-items-center">
-        <button type="button" class="btn btn-link px-3 me-2">
-          Login
-        </button>
-        <button type="button" class="btn btn-primary me-3">
-          Sign up for free
-        </button>
-        <a
-          class="btn btn-dark px-3"
-          href="https://github.com/mdbootstrap/mdb-ui-kit"
-          role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </div>
-    </div>
+    <!-- </div> -->
     <!-- Collapsible wrapper -->
   </div>
   <!-- Container wrapper -->

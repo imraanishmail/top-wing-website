@@ -12,4 +12,6 @@ export class TestNavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  about = 'about'
+
 }
