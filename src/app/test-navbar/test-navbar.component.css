@@ -1,6 +1,8 @@
 .responsive {
-  width: 175px;
-  max-width: 175px;
+  /* width: 175px;
+  max-width: 175px; */
+  width: 100px;
+  max-width: 100px;
   height: auto; 
   /* margin-top: 2px;   */
 }
@@ -20,4 +22,5 @@
 
 #social {
   /* text-align: right !important;  */
+  display: inline;
 }
