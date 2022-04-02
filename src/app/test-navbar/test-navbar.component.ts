@@ -13,5 +13,6 @@ export class TestNavbarComponent implements OnInit {
   }
 
   about = 'about'
+  menu = 'menu'
 
 }

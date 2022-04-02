@@ -37,7 +37,7 @@
 
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- NOTE: Add fixed-top class to nav so navbar can stay on top-->
   <!-- Container wrapper -->
   <div class="container justify-content-center">
     <!-- Navbar brand -->
@@ -74,6 +74,11 @@
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" routerLink="/about-page">{{about | uppercase}}</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/menu-page">{{menu | uppercase}}</a>
         </li>
       </ul>
       <!-- <div class="navbar-nav ms-auto" id="social">
