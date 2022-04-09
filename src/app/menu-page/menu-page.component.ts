@@ -12,4 +12,25 @@ export class MenuPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  categories = [{
+    name: "Soft Drinks",
+    description: "placeholder content",
+    image: "drinks/coke.jpg"
+  },
+  {
+    name: "Mains",
+    description: "some text",
+    image: "french_toast.jpg"
+  }, {
+    name: "Hot Beverages",
+    description: "something something",
+    image: "drinks/coffee.jpg"
+  }, {
+    name: "Sides",
+    description: "Fries and others",
+    image: "pancake.jpg"
+  }]
+
+
+
 }

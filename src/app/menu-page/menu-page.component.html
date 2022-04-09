@@ -1,110 +1,21 @@
 <!-- USE LAZY LOADING ANGULAR (CHECK LINKEDIN LEARNING) -->
 <div class="container">
     <div class="row">
-        <div class=" col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-4 col-lg-4" *ngFor="let category of categories">
             <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
+                <img 
+                  src="./assets/images/{{category.image}}" 
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">{{category.name}}</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
+                    {{category.description}}
                   </p>
                   <a href="#!" class="btn btn-primary">Button</a>
                 </div>
               </div>            
         </div>    
-        <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>            
-        </div>   
-        <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>            
-        </div>
     </div>
-      <!-- Row Ends Here -->
-    <div class="row">
-        <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>            
-        </div>    
-        <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>            
-        </div>   
-        <div class=" col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-                <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>            
-        </div>      
-    </div> 
 </div>
