@@ -9,18 +9,11 @@
           style="margin-top: 2px;" />
       </a>
 
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngFor="let links of navLinks">
         <li class="nav-item">
-          <a class="nav-link header" aria-current="page" href="#"><p>FEATURES</p></a>
+          <a class="nav-link header" aria-current="page" href="#"><p>{{links.title | uppercase}}</p></a>
         </li>
-        <li class="nav-item"><a class="pipe-divider"><p>|</p></a></li>
-        <li class="nav-item">
-          <a class="nav-link header" aria-current="page" href="#"><p>HOW IT WORKS</p></a>
-        </li>
-        <li class="nav-item"><a class="pipe-divider"><p>|</p></a></li>  
-        <li class="nav-item">
-          <a class="nav-link header" aria-current="page" href="#"><p>TESTIMONIALS</p></a>
-        </li>
+        <li class="nav-item"><a class="pipe-divider"><p>{{links.divider}}</p></a></li>
       </ul>
     </div>
     <!-- Left elements -->

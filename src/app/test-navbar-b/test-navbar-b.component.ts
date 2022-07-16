@@ -12,4 +12,17 @@ export class TestNavbarBComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navLinks = [
+    {
+      title: 'features',
+      divider: '|'
+    },
+    {
+      title: 'how it works',
+      divider:'|'
+    }, 
+    {
+      title: 'testimonials'
+    }
+  ]
 }
