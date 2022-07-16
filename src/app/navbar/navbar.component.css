@@ -5,10 +5,11 @@
     /* margin-top: 2px;   */
 }
 .navbar {
-    height: 100px;
+    height: 100px !important;
     /* position: relative; */
     background-color: rgb(245,245,245);
 }
+
 .nav-item a, .nav-item .active{
     /* color: #e3f2fd; */
     color: rgb(90, 102, 114);
